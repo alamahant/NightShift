@@ -1,0 +1,237 @@
+/* ============================================================
+   NightShift — Dark Theme (minimal)
+   ============================================================ */
+
+QWidget {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+QMainWindow, QDialog, QMessageBox {
+    background-color: #2b2b2b;
+}
+
+/*
+QTabWidget {
+    padding-top: 15px;
+}
+*/
+
+QTabWidget::pane {
+    background: #2b2b2b;
+}
+
+QTabBar::tab {
+    background: #333333;
+    color: #b0b0b0;
+}
+
+QTabBar::tab:selected {
+    background: #2b2b2b;
+    color: #e0e0e0;
+}
+
+QGroupBox {
+    color: #c0c0c0;
+}
+
+QLabel {
+    background: transparent;
+    color: #e0e0e0;
+}
+
+QLabel:disabled {
+    color: #6a6a6a;
+}
+
+QSlider::groove:horizontal {
+    background: #3c3c3c;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #5a8ec9;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::add-page:horizontal {
+    background: #3c3c3c;
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #e0e0e0;
+    width: 14px;
+    height: 14px;
+    margin: -5px 0;
+    border-radius: 7px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #ffffff;
+}
+
+QSlider::handle:horizontal:pressed {
+    background: #5a8ec9;
+}
+
+QSlider:disabled::handle:horizontal {
+    background: #4a4a4a;
+}
+
+/*
+QSpinBox, QDoubleSpinBox {
+    background: #333333;
+    color: #e0e0e0;
+    selection-background-color: #5a8ec9;
+    selection-color: #ffffff;
+}
+*/
+
+QSpinBox, QDoubleSpinBox {
+    background: #333333;
+    color: #e0e0e0;
+    border: 1px solid #3c3c3c;
+    border-radius: 3px;
+    padding: 3px 6px;
+    min-height: 20px;
+    /*selection-background-color: #5a8ec9;
+    selection-color: #ffffff;*/
+}
+
+QDoubleSpinBox::up-button, QSpinBox::up-button,
+QDoubleSpinBox::down-button, QSpinBox::down-button {
+    background-color: transparent;
+    /*border-left: 1px solid #3a3a4e;*/
+    width: 20px;
+    border-radius: 0px;
+}
+
+QDoubleSpinBox::up-arrow, QSpinBox::up-arrow {
+    image: none;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #c0c0c0;
+    margin-top: 2px;
+}
+
+QDoubleSpinBox::down-arrow, QSpinBox::down-arrow {
+    image: none;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #c0c0c0;
+    margin-bottom: 2px;
+}
+
+QSpinBox:disabled, QDoubleSpinBox:disabled {
+    background: #2f2f2f;
+    color: #6a6a6a;
+}
+
+/*
+QComboBox {
+    background: #333333;
+    color: #e0e0e0;
+}
+*/
+
+QComboBox {
+    background: #333333;
+    color: #e0e0e0;
+    border: 1px solid #3c3c3c;
+    border-radius: 3px;
+    padding: 3px 6px;
+    min-height: 20px;
+}
+
+QComboBox:disabled {
+    background: #2f2f2f;
+    color: #6a6a6a;
+}
+
+QComboBox QAbstractItemView {
+    background: #333333;
+    color: #e0e0e0;
+    selection-background-color: #5a8ec9;
+    selection-color: #ffffff;
+}
+
+QCheckBox, QRadioButton {
+    background: transparent;
+    color: #e0e0e0;
+}
+
+QCheckBox:disabled, QRadioButton:disabled {
+    color: #6a6a6a;
+}
+
+QPushButton {
+    background: #3c3c3c;
+    color: #e0e0e0;
+}
+
+QPushButton:hover {
+    background: #4a4a4a;
+}
+
+QPushButton:pressed {
+    background: #5a8ec9;
+    color: #ffffff;
+}
+
+QPushButton:disabled {
+    background: #2f2f2f;
+    color: #6a6a6a;
+}
+
+QToolButton {
+    background: transparent;
+}
+
+QToolButton:hover {
+    background: #3c3c3c;
+}
+
+QMenuBar {
+    background: #2b2b2b;
+    color: #e0e0e0;
+}
+
+QMenuBar::item:selected {
+    background: #3c3c3c;
+}
+
+QMenu {
+    background: #333333;
+    color: #e0e0e0;
+}
+
+QMenu::item:selected {
+    background: #5a8ec9;
+    color: #ffffff;
+}
+
+QMenu::item:disabled {
+    color: #6a6a6a;
+}
+
+QMenu::separator {
+    background: #3c3c3c;
+}
+
+QStatusBar {
+    background: #2b2b2b;
+    color: #b0b0b0;
+}
+
+QToolTip {
+    background: #3c3c3c;
+    color: #e0e0e0;
+}

@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>files/chevron-down.svg</file>
+        <file>files/chevron-up.svg</file>
+        <file>files/darktheme.css</file>
+        <file>files/chevron-down-white.svg</file>
+        <file>files/chevron-up-white.svg</file>
+        <file>files/nightshift.png</file>
+    </qresource>
+</RCC>
