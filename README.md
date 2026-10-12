@@ -1,5 +1,7 @@
 # NightShift
 
+![NightShift Screenshot](screenshots/dark_theme.png)
+
 A Qt frontend for Redshift and Gammastep. Switch between automatic day/night color temperature adjustment and manual control, with a system tray icon and a config editor.
 
 ## Features
